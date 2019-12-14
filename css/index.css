@@ -114,6 +114,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    font-weight: bold;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -124,9 +125,9 @@ p {
     padding-bottom: 20px;  
 }
 /*add border below the about info*/
-.top-content{
-    margin-top: 20px;
-    border-top: 1px dashed black;
+.text-container0{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
     padding: 2% 0;
 }
 
@@ -143,7 +144,10 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    font-weight: bold;
 }
+
+
 
 .middle-content .boxes {
     display: flex;
@@ -154,13 +158,49 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /*background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.box:first-child{
+    background-color: teal;
+}
+
+.box:nth-of-type(2){
+    background-color: gold;
+}
+
+.box:nth-of-type(3){
+    background-color: cadetblue;
+}
+.box:nth-of-type(4){
+    background-color: coral;
+}
+.box:nth-of-type(5){
+    background-color: crimson;
+}      
+.box:nth-of-type(6){
+    background-color: forestgreen;
+}
+.box:nth-of-type(7){
+    background-color: darkorchid;
+}
+.box:nth-of-type(8){
+    background-color: hotpink;
+}
+.box:nth-of-type(9){
+    background-color: indigo;
+}
+
+.box:nth-of-type(10){
+    background-color: dodgerblue;
+}
+
+
+
 
 button {
     background-color: white;
@@ -173,6 +213,7 @@ button {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    font-weight: bold;
 }
 
 .bottom-content .text-container {
